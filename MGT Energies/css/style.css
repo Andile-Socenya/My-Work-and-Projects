@@ -1,0 +1,134 @@
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div{
+}
+
+
+#main-showcase{
+    height: 84vh;
+    background: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn{
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover{
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+nav{
+    border-bottom: 4px solid #42A347;
+}
+
+#what-we-do{
+    height: 90vh;
+    padding-top: 20vh;
+    background: url("../images/abstract\ green\ bg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/* for about us */
+
+
+#about-showcase{
+    height: 84vh;
+    background: rgba(0, 0, 0, 0.7) url("../images/about\ banner.png");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn{
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover{
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+
+/*projects window*/
+#projects-showcase{
+    height: 84vh;
+    background: url("../images/projects\ banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn{
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover{
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+
+/* cards for projects*/
+#project-1{
+    background: url("../images/coal\ station.jpg");
+    background-position: center;
+            background-size: cover;
+}
+
+#project-2{
+    background: url("../images/battery\ station.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+#project-3{
+    background: url("../images/solar\ panels\ 2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* banner for partners page*/
+
+#partner-showcase{
+    height: 84vh;
+    background: rgba(0, 0, 0, 0.7) url("../images/partner\ banner.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+/* banner for contact us page*/
+
+#contact-us-showcase{
+    height: 84vh;
+    background: url("../images/Contact-Us-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+

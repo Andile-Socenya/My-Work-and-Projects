@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main-showcase {
+    min-height: 500px;
+    background: url("../images/faculty-of-law-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    transition: background-size 500ms;    
+}
+
+#main-showcase:hover{
+    background-size: 120%;
+}
+
+
+#main-showcase h1 {
+    margin-top: 100px;
+    color: white;
+    text-shadow: 0 0 15px black;
+    filter: none;
+}
+
+#main-showcase a {
+    margin-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav li {
+    transition: background 1s, color 1s;
+}
+
+nav li:hover {
+    background: #0D6EFD;
+    color: whitesmoke;
+}
+
+/* transition effect for banner
+
+#about-showcase h2 {
+    font-size: 120%;
+}
+
+#about-showcase p {
+    font-size: 110%;
+}
+*/
+#services-main img {
+    height: 180px;
+}
+
+#form input {
+    width: 100%;
+    height: 33px;
+    border: none;
+    border-bottom: 3px solid #212529;
+    transition: border-bottom 500ms;
+}
+
+#form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #212529;
+}
+
+#form input:hover {
+    border-color: white;
+    border-bottom: 3px solid white;
+}
+
+#home-submit {
+    background: #212529;
+    color: white;
+}
+
+#home-submit:hover {
+    border: none;
+    background: #3f4347;
+}
+
+#newsletter-wrap {
+    border: 2px solid #212529;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#contact-newsletter {
+    background: url("../images/contact-cover.jpg");
+    color: white;
+    background-size: cover;
+}
+
+#products-showcase img{
+    height: 100px;
+}
+
+.product-card{
+    color: black;
+    text-decoration: none;    
+    transition: 500ms;
+}
+
+.product-card:hover {
+    color: black;
+    transform: scale(1.1, 1.1) translateY(-30px);
+    
+}
+
+.product-card a{
+    color: black;
+    text-decoration: none;
+}
+
+.product-card a:hover{
+    color: black;
+}
+
+
+#it-bg{
+    margin-top: 100px;
+    height: 500px;
+    width: 65%;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    background: url("../images/ai.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#it-content{
+    margin-top: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    background: lightslategray;
+}
+
+#index-button{
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: none;
+    transition: background-color 0.5s, border-color 0.5s, color 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+#index-button:hover{
+    background-color: white;
+    border-color: #212529;
+    color: #212529;
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 0 25px 2px black;
+}
+
+#services-main  {
+    background: url("../images/bg-index-second.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.tabs-main img {
+    transition: transform 1s;
+}
+
+.tabs-main:hover  img {
+    transform: scale(1.2,1.2) translate(0, -15px);
+
+}
+
+
+
+#contact{
+    min-height: 300px;
+}
+
+#contact a{
+    
+    padding: 18px 25px;
+    text-decoration: none;
+    background: #EE6200;
+    color: white;
+    transition: background 500ms, box-shadow 500ms;
+}
+
+#contact a:hover{
+    background: #212529;
+    color: white;
+    box-shadow: 0 0 15px 2px gray;
+    
+}
+
+
+#services-showcase{
+    height: 400px;
+    background: url("../images/Criminal\ Law.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+#criminal-law{
+    background: url("../images/Criminal Law.jpg");
+    background-position: center;
+            background-size: cover;
+}
+
+#litigation-law{
+    background: url("../images/litigation.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#wills-law{
+    background: url("../images/will law.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*experimental code*/
+
+#services-showcase2{
+    height: 400px;
+    background: url("../images/what-we-do.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+#services-main2  {
+    background: url("../images/");
+    background-size: cover;
+    background-position: center;
+}

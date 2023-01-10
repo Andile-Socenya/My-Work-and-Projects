@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,  minimum-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>MGT </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+    #navbar-mobile{
+      display: none;
+    }
+
+    @media (max-width: 1000px){
+      #navbar-mobile{
+        display: block;
+      }
+
+      #navbar-pc{
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navbar-pc" class="navbar navbar-expand-lg navbar-light bg-light shadow
+    sticky-md-top">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <!--<span class="navbar-toggler-icon"></span>-->
+        <img src="images/antenna.png" width="40px">
+      </div>
+
+      <ul class="navbar-nav">
+
+        <li class="navbar-item p-3">
+          <a href="index.html" class="navbar-link ">HOME</a>
+        </li>
+        <li class="navbar-item p-3">
+          <a href="start.html" class="navbar-link ">START</a>
+        </li>
+
+        <li class="navbar-item p-3">
+          <a href="Browse.html" class="navbar-link ">BROWSE</a>
+        </li>
+
+        <li class="navbar-item p-3">
+          <a href="order.html" class="navbar-link ">ORDER</a>
+        </li>
+        <li class="navbar-item p-3">
+          <a href="support.html" class="navbar-link ">SUPPORT</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="navbar-mobile" class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MGTM coms</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="start.html">START</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Browse.html">BROWSE</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="order.html">ORDER</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="support.html">SUPPORT</a>
+            </li>
+            
+             
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="banner" class="row" style="height: 90vh;">
+      <h1 style="padding-top: 100px; font-family: helvetica;
+                    font-weight: 800; letter-spacing: 1px; color: #ffd323;
+                    text-shadow: 0 0 8px #a48818;" class="text-center">WELCOME
+        TO
+        MGT <br> TELECOMMUNICATIONS</h1>
+      <h5 style="transform: translateY(-40px); font-family: Helvetica;
+                    font-style: italic; letter-spacing: 2px; color: white;
+                    font-family: 300; text-shadow: 0 0 5px gray; " class="text-center">The home of
+        affordable data plans</h5>
+
+    </div>
+
+  </div>
+
+  <div id="gradient-cover" class="container-fluid p-4" style="min-height:
+            200px; background-size: 400% 400%;">
+
+    <h1 class="text-center p-5 text-light shadow " style="background:
+                rgba(255, 255, 255, 0.4 ); text-shadow: 5px 0 10px darkgray;">Check
+      our amazing offers below</h1>
+  </div>
+
+  <div id="offer-cards" class="container">
+
+
+    <div class="row pt-3">
+      <div class="col-lg mt-2">
+        <img class="shadow-lg" src="images/deal 1.png" width="100%">
+      </div>
+      <div class="col-lg mt-2">
+        <img class="shadow-lg" src="images/deal 2.png" width="100%">
+
+      </div>
+      <div class="col-lg mt-2">
+        <img class="shadow-lg" src="images/deal 3.png" width="100%">
+      </div>
+    </div>
+  </div>
+
+  <div id="contact-session" class="container my-5 p-5 shadow">
+    <h1 style="font-weight: 700; color: white;">ENQUIRE WITH US</h1>
+    <hr width="20%">
+    <h5 style="padding-bottom: 25px; color: white;">Contact Us Now</h5>
+    <a href="#">Contact Us</a>
+  </div>
+
+  <div class="container2 text-center">
+    <a href="start.html#range" style="text-decoration: none;">
+      <div class="text" style="transform: translateY(0px) scale(1.2,
+      1.2); font-family: Helvetica;
+      letter-spacing: 2px; font-weight: 900;
+      font-family: 300; text-shadow: 0 0 5px gray; " class="text-center"></div>
+    </a>
+  </div>
+
+  <footer class="container-fluid shadow">
+    <hr>
+
+    <div class="row" style="min-height: 70px;">
+      <div class="col-1">
+        <img src="images/antenna.png" width="100%" style="padding: 15px;" alt="">
+      </div>
+      <div class="col-3">
+        <h5>Address</h5>
+        <h6>1234 Sample Street</h6>
+        <h6>Test Surburb</h6>
+        <h6>Johannesburg</h6>
+        <h6>1234</h6>
+      </div>
+      <div class="col-4 pt-3">
+        <a href="#" style="text-decoration: none;">Term & Conditions</a> <br> <span>&copy; <a href="#"
+            style="text-decoration: none;">info@MGTM.com</a></span>
+      </div>
+      <div class="col-3">
+        <h4>Socials</h4>
+        <table>
+          <tr>
+            <td><a href="https://linkedin.com"><img src="images/in icon.jpeg" width="40%" alt=""></a></td>
+            <td><a href="https://facebook.com"><img src="images/face icon.png" width="40%" alt=""></a></td>
+            <td><a href="https://twitter.com"><img src="images/twitter icon.png" width="50%" alt=""></a></td>
+            <td><a href="tel:+27114921009"><img src="images/phone icon.jpeg" width="50%" alt=""></a></td>
+            <td><a href="mailto:info@magubanetechnologies.co.za"><img src="images/mail icon.jpeg" width="100%"
+                  alt=""></a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-1">
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    // ——————————————————————————————————————————————————
+    // TextScramble
+    // ——————————————————————————————————————————————————
+
+    class TextScramble {
+      constructor(el) {
+        this.el = el;
+        this.chars = "!<>-_\\/[]{}—=+*^?#________";
+        this.update = this.update.bind(this);
+      }
+      setText(newText) {
+        const oldText = this.el.innerText;
+        const length = Math.max(oldText.length, newText.length);
+        const promise = new Promise((resolve) => (this.resolve = resolve));
+        this.queue = [];
+        for (let i = 0; i < length; i++) {
+          const from = oldText[i] || "";
+          const to = newText[i] || "";
+          const start = Math.floor(Math.random() * 40);
+          const end = start + Math.floor(Math.random() * 40);
+          this.queue.push({ from, to, start, end });
+        }
+        cancelAnimationFrame(this.frameRequest);
+        this.frame = 0;
+        this.update();
+        return promise;
+      }
+      update() {
+        let output = "";
+        let complete = 0;
+        for (let i = 0, n = this.queue.length; i < n; i++) {
+          let { from, to, start, end, char } = this.queue[i];
+          if (this.frame >= end) {
+            complete++;
+            output += to;
+          } else if (this.frame >= start) {
+            if (!char || Math.random() < 0.28) {
+              char = this.randomChar();
+              this.queue[i].char = char;
+            }
+            output += `<span class="dud">${char}</span>`;
+          } else {
+            output += from;
+          }
+        }
+        this.el.innerHTML = output;
+        if (complete === this.queue.length) {
+          this.resolve();
+        } else {
+          this.frameRequest = requestAnimationFrame(this.update);
+          this.frame++;
+        }
+      }
+      randomChar() {
+        return this.chars[Math.floor(Math.random() * this.chars.length)];
+      }
+    }
+
+    // ——————————————————————————————————————————————————
+    // Example
+    // ——————————————————————————————————————————————————
+
+    const phrases = [
+      "MGT TELECOMMUNICATION",
+      "HOME OF AFFORDABLE INTERNET",
+      "AMAZING DEALS",
+      "CHECK OUT OUR RANGE"
+    ];
+
+    const el = document.querySelector(".text");
+    const fx = new TextScramble(el);
+
+    let counter = 0;
+    const next = () => {
+      fx.setText(phrases[counter]).then(() => {
+        setTimeout(next, 800);
+      });
+      counter = (counter + 1) % phrases.length;
+    };
+
+    next();
+
+  </script>
+</body>
+
+</html>

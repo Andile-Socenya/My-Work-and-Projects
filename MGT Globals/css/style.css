@@ -1,0 +1,215 @@
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 2rem;
+    color: #5a5a5a;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;}
+
+div {
+}
+
+
+#main-showcase {
+    height: 84vh;
+    background: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn {
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover {
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+
+nav {
+    border-bottom: 4px solid 523E8B;
+}
+
+#what-we-do {
+    height: 90vh;
+    padding-top: 20vh;
+    background: url("../images/abstract\ green\ bg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+#main-gif{
+    background: rgba(0, 0, 0, 0.4) url("../images/Gif-Banner.gif") ;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+
+/* for about us */
+
+
+#about-showcase {
+    height: 84vh;
+    background: rgba(0, 0, 0, 0.7) url("../images/about\ banner.png");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn {
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover {
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+
+/*projects window*/
+#projects-showcase {
+    height: 84vh;
+    background:  rgba(0, 0, 0, 0.7) url("../images/2020_01_10PricelessTeamwork_hero.webp");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-btn {
+    padding: 18px 25px;
+    background: #42A347;
+    text-decoration: none;
+    color: white;
+    transition: box-shadow 500ms, transform 500ms;
+}
+
+#main-btn:hover {
+    box-shadow: 0 0 10px 1px black;
+    transform: scale(1.1, 1.1);
+}
+
+/* cards for projects*/
+#project-1 {
+    background: url("../images/Artboard\ 4.svg");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+#project-2 {
+    background: url("../images/MT.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#project-3 {
+    background: url("../images/Admin-14917-scaled.jpeg.optimal.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* banner for partners page*/
+
+#partner-showcase {
+    height: 84vh;
+    background: rgba(0, 0, 0, 0.7) url("../images/partner\ banner.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+/* banner for contact us page*/
+
+#contact-us-showcase {
+    height: 84vh;
+    background: url("../images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main-form-btn {
+    transition: 500ms;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #523E8B;
+    border: none;
+}
+
+#main-form-btn:hover {
+    color: white;
+    background: #523E8B;
+    border: 2px solid white;
+
+}
+
+#about-bg{
+    background: #523E8B;
+}
+
+.index-toppers{
+    background-color: darkslateblue;
+    color: rgb(226, 226, 226);
+    transition: transform 500ms ease-out, background-color 500ms, color 500ms, box-shadow 500ms;
+}
+
+.index-toppers:hover{
+    transform: translateY(-30px);
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px 1px darkslateblue;
+}
+
+#services-links{
+    background: url("../images/abstract\ white.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#services-links a{
+    margin-top: 15px;
+    padding: 15px 27px;
+    text-decoration: none;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 2px;   
+    transition: 500ms;
+    font-weight: 600;
+    
+
+}
+
+#services-links a:hover{
+    color: darkslateblue;
+    background-color: white;
+    box-shadow: 0 0 10px 3px darkslateblue;
+}
+
+@media (max-width: 670px) {
+    #lines{
+        display: none;
+    }
+    
+}
+
+#blend{
+    background: url("../images/new blend.png");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}

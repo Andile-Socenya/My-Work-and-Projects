@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+nav li a {
+    text-decoration: none;
+    transition: 500ms;
+    color: gray;
+    font-weight: 470;
+}
+
+nav li a:hover {
+    color: aqua;
+}
+
+#banner {
+    background: url("../images/dark\ banner.png");
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#start-banner {
+    background: url("../images/dark\ banner.png");
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: #e3f7fd;
+}
+
+#gradient-cover {
+    animation: flow 8s ease 0s infinite alternate;
+    background: linear-gradient(to right, #7F2A86, #DA3F9B, #B8819A, #8FCF99, #E2F6FC);
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#offer-cards img {
+    border-radius: 5px;
+
+
+}
+
+#contact-session {
+    background-size: 400% 400%;
+    animation: flow 15s ease 0s infinite;
+    background: linear-gradient(to right, #7F2A86, #DA3F9B, #B8819A, #8FCF99, #E2F6FC);
+}
+
+#contact-session a {
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #e742b0;
+    text-decoration: none;
+    color: white;
+    font-weight: 580;
+    transition: box-shadow 500ms;
+}
+
+#contact-session a:hover {
+    background-color: #EF87CD;
+    box-shadow: 0 0 15px 2px #e742b0;
+}
+
+
+footer {
+}
+
+.container2 {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text {
+    font-weight: 100;
+    font-size: 28px;
+    color: #262A33;
+}
+
+.dud {
+    color: #73799D;
+}
+
+#start-btn a {
+    padding: 15px 25px;
+    background-color: #e742b0;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-weight: 550;
+    transition: background-color 500ms, box-shadow 500ms;
+}
+
+#start-btn a:hover {
+    background-color: #EF87CD;
+    box-shadow: 0 0 15px 2px #e742b0;
+}
